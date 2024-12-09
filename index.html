@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Blagues</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenue chez Carambar & co</h1>
+  </header>
+
+  <main>
+    <section>
+        <h2>Ajouter une blague</h2>
+        <form id="ajouter-blague">
+          <input type="text" id="input-blague" placeholder="Entrez votre blague" required>
+          <input type="text" id="input-reponse" placeholder="Entrez la réponse" required>
+          <button type="submit">Ajouter</button>
+        </form>
+      </section>
+      
+
+    <section>
+      <h2>Toutes les blagues</h2>
+      <button id="btn-toutes-les-blagues">Voir les blagues</button>
+      <ul id="liste-blagues"></ul>
+    </section>
+
+    <section>
+      <h2>Rechercher une blague</h2>
+      <input type="number" id="input-id-blague" placeholder="ID de la blague">
+      <button id="btn-rechercher-blague">Rechercher</button>
+      <p id="resultat-blague"></p>
+    </section>
+
+    <section>
+      <h2>Blague aléatoire</h2>
+      <button id="btn-blague-aléatoire">Obtenir une blague aléatoire</button>
+      <p id="blague-aléatoire"></p>
+    </section>
+  </main>
+
+  <footer>
+    <h1>Revenez pour plus de blague</h1>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
