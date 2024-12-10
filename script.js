@@ -1,6 +1,3 @@
-// const { json } = require("stream/consumers");
-
-// const apiUrl = 'https://blague-api.onrender.com/blagues';
 
 document.getElementById('ajouter-blague').addEventListener('submit',async (e) => { e.preventDefault(); 
 
